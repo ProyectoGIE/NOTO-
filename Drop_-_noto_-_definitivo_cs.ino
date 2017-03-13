@@ -34,11 +34,11 @@ int EntradaUV = A0; //Puerto donde conectamos la entrada del sensor ml8511
 Adafruit_BMP085 bmp;
 WiFiClient client; // Inicializamos el servicio de Wifi
 // HABILITAMOS Y CONFIGURAMOS EL SERVICIO DE THINKSPEAK
-unsigned long myChannelNumber = 239298; //Aquí es donde anotamos el número de nuestro canal en thinkspeak
-const char * myWriteAPIKey = "G0J3I7YVC30GIUQY"; //Y esta es nuestra API que nos la dan ellos al contratar el servicio
+unsigned long myChannelNumber = Nº de canal; //Aquí es donde anotamos el número de nuestro canal en thinkspeak
+const char * myWriteAPIKey = "API del canal"; //Y esta es nuestra API que nos la dan ellos al contratar el servicio
 // HABILITAMOS NUESTRA RED WIFI
-const char* ssid = "jugarmar";
-const char* password = "CercadosDeRafe1357";
+const char* ssid = "SSID de nuestra red";
+const char* password = "PASS de nuestra red";
 const char* server = "api.thingspeak.com";
 
 void setup()
